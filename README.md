@@ -8,8 +8,10 @@ http://web.tyleryasaka.me/slidestory
 
 This widget is pretty simple and straightforward. You can create as few or as many slides as you like. Just add more images and descriptions to the html, and the script will automatically detect them.
 
-Notice that this uses jquery and that the javascript must go at the END of the html body.
+Notice that this uses Jquery, so be sure to include it before the "slidestory.js" file.
 
 Feel free to modify the html/css/javascript to make it fit your needs.
 
-Enjoy!
+========
+
+created by Tyler Yasaka | http://web.tyleryasaka.me | web@tyleryasaka.me

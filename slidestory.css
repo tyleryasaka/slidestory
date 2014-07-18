@@ -1,6 +1,6 @@
 #slidestory-frame {
-        width:100%;
-        max-width:700px;
+        width:700px;
+        max-width:100%;
         text-align:center;
         margin:15px auto;
 }
@@ -13,16 +13,18 @@
         margin:15px 0;
         text-align:center;
 }
-#slidestory-control a {
-        margin:0 10px;
-        text-decoration:underline;
-}
-#slidestory-control a:hover {
-        cursor:pointer;
+#slidestory-control button {
+        margin:5px;
 }
 #slidestory-text {
-	/*add your own css here*/
+	width:680px;
+	max-width:100%;
+	margin:auto;
+	border-radius:10px;
+	box-shadow:0 0 10px #000 inset;
+	padding:10px;
 }
+/*Don't edit the css below here*/
 #slidestory-text div {
         display:none;
 }

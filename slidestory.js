@@ -1,8 +1,10 @@
-	var slidestory_width = $('#slidestory-frame').width();
+var slidestory_width = 0,current_slide=1,total_slides=0;
+$(document).ready(function() {
+	slidestory_width = $('#slidestory-frame').width();
 	$('#slidestory-frame').css({'height':(slidestory_width/2)+'px'});
-	var current_slide=1;
-	var total_slides=$('#slidestory-frame').children().length;
+	total_slides=$('#slidestory-frame').children().length;
 	toggleSlide();
+});
 
 	function nextSlide() {
 	    toggleSlide();
